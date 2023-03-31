@@ -46,7 +46,7 @@ c = int(input("Choose a character: Diluc(1), Eula(2), Ayaka(3), Kazuha(4),  Scar
 
 if c == 1:
     print("My name is ", Diluc.Get_name, ", what do you want to know about me?")
-    print("My full name(1)", "Who i am(2)", "My age(3)" "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", end = "\n")
+    print("My full name(1)", "Who i am(2)", "My age(3)", "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", sep = "\n")
     a = int(input())
     if a == 1:
         print("My full name is ", Diluc.Get_name, Diluc.Get_surname)
@@ -62,7 +62,7 @@ if c == 1:
         print(Diluc.Get_name, Diluc.Attack)    
 elif c == 2:
     print("My name is ", Eula.Get_name, ", what do you want to know about me?")
-    print("My full name(1)", "Who i am(2)", "My age(3)" "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", end = "\n")
+    print("My full name(1)", "Who i am(2)", "My age(3)", "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", sep = "\n")
     a = int(input())
     if a == 1:
         print(Eula.WhoAmI)
@@ -78,7 +78,7 @@ elif c == 2:
         print(Eula.Get_name, Eula.Attack)    
 elif c == 3:
     print("My name is ", Ayaka.Get_name, ", what do you want to know about me?")
-    print("My full name(1)", "Who i am(2)", "My age(3)" "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", end = "\n")
+    print("My full name(1)", "Who i am(2)", "My age(3)", "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", sep = "\n")
     a = int(input())
     if a == 1:
         print(Ayaka.WhoAmI)
@@ -94,7 +94,7 @@ elif c == 3:
         print(Ayaka.Get_name, Ayaka.Attack)    
 if c == 4:
     print("My name is ", Kazuha.Get_name, ", what do you want to know about me?")
-    print("My full name(1)", "Who i am(2)", "My age(3)" "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", end = "\n")
+    print("My full name(1)", "Who i am(2)", "My age(3)", "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", sep = "\n")
     a = int(input())
     if a == 1:
         print(Kazuha.WhoAmI)
@@ -110,7 +110,7 @@ if c == 4:
         print(Kazuha.Get_name, Kazuha.Attack)    
 if c == 5:
     print("My name is ", Scara.Get_name, ", what do you want to know about me?")
-    print("My full name(1)", "Who i am(2)", "My age(3)" "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", "Changing landscape(7)", end = "\n")
+    print("My full name(1)", "Who i am(2)", "My age(3)", "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", "Changing landscape(7)", sep = "\n")
     a = int(input())
     if a == 1:
         print(Scara.WhoAmI)
@@ -128,7 +128,7 @@ if c == 5:
         print(Scara.Get_name, Scara.Landscape("cut mountains by a lighning"))    
 if c == 6:
     print("My name is ", LaSignora.Get_name, ", what do you want to know about me?")
-    print("My full name(1)", "Who i am(2)", "My age(3)" "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", "Changing landscape(7)", end = "\n")
+    print("My full name(1)", "Who i am(2)", "My age(3)", "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", "Changing landscape(7)", sep = "\n")
     a = int(input())
     if a == 1:
         print(LaSignora.WhoAmI)
@@ -146,14 +146,14 @@ if c == 6:
         print(LaSignora.Get_name, LaSignora.Landscape("froze the river"))    
 if c == 7:
     print("My name is ", Zhongli.Get_name, ", what do you want to know about me?")
-    print("My full name(1)", "Who i am(2)", "My age(3)" "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", "Changing landscape(7)", end = "\n")
+    print("My full name(1)", "Who i am(2)", "My age(3)", "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", "Changing landscape(7)", sep = "\n")
     a = int(input())
     if a == 1:
         print(Zhongli.WhoAmI)
     if a == 2:
-        print("My full name is ", Zhongli.Get_name, Zhongli.Get_surname)
+        print("My full name is ", Zhongli.Get_name)
     if a == 3:
-        print("I am", Zhongli.Get_Age, "years old")
+        print("I am", Zhongli.GetAge, "years old")
     if a == 4:
         print("My catchprase is ", Zhongli.Talk("'I will have order'"))
     if a == 5:
@@ -164,14 +164,14 @@ if c == 7:
         print(Zhongli.Get_name, Zhongli.Landscape("created a petrified mountain by  myriad of  polearms"))    
 if c == 8:
     print("My name is ", Venti.Get_name, ", what do you want to know about me?")
-    print("My full name(1)", "Who i am(2)", "My age(3)" "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", "Changing landscape(7)", end = "\n")
+    print("My full name(1)", "Who i am(2)", "My age(3)", "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", "Changing landscape(7)", sep = "\n")
     a = int(input())
     if a == 1:
         print(Venti.WhoAmI)
     if a == 2:    
-        print("My full name is ", Venti.Get_name, Venti.Get_surname)
+        print("My full name is ", Venti.Get_name)
     if a == 3:
-        print("I am", Venti.Get_Age, "years old")
+        print("I am", Venti.GetAge, "years old")
     if a == 4:
         print("My catchprase is ", Venti.Talk("'May the wind protect you'"))     
     if a == 5:
@@ -180,7 +180,7 @@ if c == 8:
         print(Venti.Get_name, Venti.Landscape("cut mountains by the wind"))       
 if c == 9:
     print("My name is ", Katheryne.Get_name, ", what do you want to know about me?")
-    print("My full name(1)", "Who i am(2)", "My age(3)" "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", end = "\n")
+    print("My full name(1)", "Who i am(2)", "My age(3)", "My catchphrase(4)", "Me while standing(5)", "Attaking an enemy(6)", sep = "\n")
     a = int(input())
     if a == 1:
         print(Katheryne.WhoAmI)
