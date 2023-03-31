@@ -6,5 +6,5 @@ class ClaymoreUser(Human):
         return print("attacks with a claymore")
     
     def WhoAmI(self):
-        return print("I am a ", ClaymoreUser.Get_Element, " claymore user")
+        return print("I am a ", ClaymoreUser.Get_Element(self), " claymore user")
 

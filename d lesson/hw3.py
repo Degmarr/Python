@@ -6,6 +6,6 @@ class Sworsdman(Human):
         print("attacks with a sword")
 
     def WhoAmI(self):
-        print("I am a ", Sworsdman.Get_Element, " swordsman")
+        print("I am a ", Sworsdman.Get_Element(self), " swordsman")
 
 

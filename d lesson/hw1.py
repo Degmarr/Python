@@ -85,7 +85,7 @@ class Archon():
         self.__element = element
 
     def WhoAmI(self):
-        print("I am a ", Archon.Get_Element,  " archon")        
+        print("I am a ", Archon.Get_Element(),  " archon")        
 
     def Set_name(self,name):
         self.__name = name

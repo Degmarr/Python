@@ -39,6 +39,7 @@ LaSignora = CatalistUser("Lohefalter", "Rosalyne-Kruchka")
 LaSignora.SetAge(526)
 LaSignora.Set_Element("cryo")
 
+print(" ")
 print("Write a number, corresponding to the chosen answer")
 print(" ")
 
@@ -196,3 +197,4 @@ if c == 9:
         print(Katheryne.Get_name, Katheryne.Attack)     
 
 
+print("Goodbye, have a nice day <3")

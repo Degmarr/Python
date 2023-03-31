@@ -7,7 +7,7 @@ class CatalistUser(Human, Archon):
         print("attacks with a catalyst")
 
     def WhoAmI(self):
-        print("I am a ", CatalistUser.Get_Element, " catalyst user")
+        print("I am a ", CatalistUser.Get_Element(self), " catalyst user")
 
 
     
